@@ -25,6 +25,8 @@ public class question6 {
         for (Student s : students) {
             totalMarks += s.marks;
         }
-        
+        double averageMarks = (double) totalMarks / students.size();
+
+        System.out.println("Average Marks: " + averageMarks);
     }
 }
